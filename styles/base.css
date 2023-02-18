@@ -1,0 +1,186 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+/* Header */
+nav {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+    color: #F62102;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+}
+
+nav ul li {
+    font-family: 'Signika', sans-serif;
+    color: #0A0603;
+}
+
+#item1 {
+    margin-right: 72px;
+}
+
+/* Hero */
+#hero {
+    width: 89%;
+    margin: 0 auto;
+    display: flex;
+    background-color: #FFF7E5;
+}
+
+#hero img{
+    margin-right: 96px;
+}
+
+#hero-content h1 {
+    text-transform: uppercase;
+    font-family: 'Signika', sans-serif;
+    font-size: 5rem;
+    color: #EB6B0D;
+    line-height: 5rem;
+    margin-bottom: 2.5rem;
+}
+
+#hero-content p {
+    font-family: 'Signika', sans-serif;
+    font-size: 1.5rem;
+    color: rgba(10, 6, 3, 0.75);
+    line-height: 2rem;
+}
+
+/* Ingredients */
+#ingredients {
+    margin-top: 3rem;
+}
+
+#ingredients h2 {
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    font-size: 2.69rem;
+    color: #F6A602;
+}
+
+#ingredients p.ingredient-contents {
+    text-align: left;
+    width: 60.75rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.12rem;
+    margin-left: 7.75rem;
+    color: #0A0603;
+}
+
+#allergen-warning h3, #allergen-warning p {
+    text-align: center;
+}
+
+#allergen-warning h3 {
+    font-family: 'Signika', sans-serif;
+    font-size: 1.5rem;
+    color: #0A0603;
+}
+
+#allergen-warning p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.13rem;
+    color: #0A0603;
+}
+
+/* Nutritional Information */
+#nutrition-info {
+    background-image: url("../images/peanuts-medium.jpg");
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#nutrition-info h2 {
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    font-size: 2.69rem;
+    color: #F62102;
+}
+
+#nutrition-label {
+    width: 38%;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid rgba(10, 6, 3, 0.75);
+}
+
+table {
+    margin: 0 8px;
+    border-collapse: collapse;
+    font-family: 'Poppins', sans-serif;
+}
+
+thead {
+    border-bottom: 8px solid rgba(10, 6, 3, 0.75);
+}
+
+thead #nutrition-title {
+    font-size: 2rem;
+}
+
+thead #serving-amount {
+    text-align: right;
+    padding-top: 8px;
+    padding-right: 6px;
+}
+
+thead #daily-value {
+    text-align: right;
+    padding-top: 8px;
+}
+
+table th {
+    text-align: left;
+}
+
+table tbody td {
+    text-align: right;
+    padding-right: 6px;
+}
+
+tbody .indented-regular {
+    padding-left: 8px;
+    font-weight: normal;
+}
+
+table tfoot {
+    border-top: 2px solid rgba(10, 6, 3, 0.75);
+}
+
+tfoot #nutrition-note {
+    text-align: left;
+}
+
+/* Footer */
+footer div {
+    margin: 1rem 2rem;
+    padding: 0 4rem;
+}
+
+footer div ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+footer ul li {
+    font-family: 'Signika', sans-serif;
+    font-size: 1.13rem;
+}
